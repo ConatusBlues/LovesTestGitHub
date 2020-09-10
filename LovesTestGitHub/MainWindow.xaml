@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Margin="50" Content="{Binding OutPut}"/>
-        <TextBox VerticalAlignment="Center" Width="300" Text="{Binding InPut}"/>
-        <Button VerticalAlignment="Bottom" Width="500" Margin="50" Background="Azure" Height="50" Content="Submitta" Command="{Binding ButtonCommand}"/>
+        <TextBox VerticalAlignment="Top" Width="300" Text="{Binding InPut}" Margin="250,281,250,0"/>
+        <Button VerticalAlignment="Bottom" Width="500" Margin="50" Background="Azure" Height="50" Content="Highscore lista" Command="{Binding ButtonCommand}"/>
+        <ListBox Margin="334,85,334,174" ItemsSource="{Binding OutPut}"/>
     </Grid>
 </Window>
